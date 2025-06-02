@@ -3,11 +3,12 @@ package com.arnat.microflow;
 import java.sql.SQLException;
 
 import org.h2.tools.Server;
+import org.springframework.context.annotation.Configuration;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 
-
+@Configuration
 public class H2ServerConfig {
 
 
